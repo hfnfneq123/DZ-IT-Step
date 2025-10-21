@@ -1,0 +1,51 @@
+Основні атрибути та методи Colorama
+
+1. init(autoreset=True)
+Вмикає кольори в терміналі
+autoreset=True - автоматично скидає колір після кожного print().
+
+2. deinit()
+Вимикає кольори
+
+3. Fore
+Колір тексту
+Наприклад: Fore.RED, Fore.GREEN, Fore.BLUE, та Fore.RESET
+
+4. Back
+Колір фону
+Наприклад: Back.YELLOW, Back.CYAN, Back.RESET
+
+5. Style
+Стиль шрифту
+Наприклад:
+
+Style.BRIGHT - яскравий
+
+Style.DIM - тьмяний
+
+Style.RESET_ALL - скидає всі ефекти
+
+6. Cursor
+Керування положенням курсора
+Наприклад:
+
+Cursor.UP(1) - підняти курсор на рядок вгору
+
+Cursor.DOWN(2) - вниз на два рядки
+
+7. just_fix_windows_console()
+Вмикає кольори у Windows без повного init()
+
+Робочий приклад:
+
+from colorama import init, Fore, Back, Style
+
+
+init(autoreset=True)
+
+
+print(Fore.RED + "Червоний текст")
+
+print(Back.YELLOW + "Жовтий фон")
+
+print(Style.BRIGHT + "Яскравий текст")
