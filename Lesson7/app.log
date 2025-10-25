@@ -1,0 +1,12 @@
+2025-10-25 13:37:00,674 - ERROR - Error when dividing numbers
+Traceback (most recent call last):
+  File "E:\Git_Hub\Git\IT-Step\venv\Lesson7\Second_Task_Lesson7.py", line 7, in divide_numbers
+    result = a / b
+             ~~^~~
+ZeroDivisionError: division by zero
+2025-10-25 13:37:00,677 - ERROR - Error when dividing numbers
+Traceback (most recent call last):
+  File "E:\Git_Hub\Git\IT-Step\venv\Lesson7\Second_Task_Lesson7.py", line 7, in divide_numbers
+    result = a / b
+             ~~^~~
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
